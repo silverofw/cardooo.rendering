@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.PlayerSettings;
 
 namespace cardooo.rendering
 {
@@ -9,5 +10,7 @@ namespace cardooo.rendering
     public class RenderCamera : MonoBehaviour
     {
         [SerializeField] public RenderProcess RenderProcess;
+
+        public Vector3 pos;
     }
 }

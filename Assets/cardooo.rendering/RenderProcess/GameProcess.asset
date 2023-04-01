@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c931e2cf0f8ac4c4dbd312fba1bde51b, type: 3}
   m_Name: GameProcess
   m_EditorClassIdentifier: 
+  drawSkyBox: 0
+  m_ShaderPassNames:
+  - SRPDefaultUnlit
